@@ -5,8 +5,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.svm import SVC
 
-# The competition datafiles are in the directory ../input
-# Read competition data files:
+# Datafiles are also given
 #image is of size 28*28
 train = pd.read_csv("train.csv")
 predict_data  = pd.read_csv("predict.csv")
