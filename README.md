@@ -1,4 +1,4 @@
-**# Digit-Recognizer using Python 3.6**
+# Digit-Recognizer using Python 3.6
 
 ## Libraries Used are:-
 1. sklearn
