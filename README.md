@@ -16,7 +16,7 @@ Starting 35000 images data is used for train the classifer and then that classif
 3. Naive Bayes Classifier
 
 ## Accuracy score of above classifier are:-
-1. Random Forest Classifier :- 0.94285714
+1. Random Forest Classifier :- 0.9652857142
 2. Decision Tree Classifier :- 0.79957142
 3. Naive Bayes Classifier :- 0.8217142857
 
