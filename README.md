@@ -6,7 +6,7 @@
 
 Here we have a file named "train.rar" which consists data of images of size 28 * 28.
 Total no of images are 42000.
-So we have a total of 42000 rows and (784+1) columns. Extra 1 is for levels of images (i.e. 1 to 9).
+So we have a total of 42000 rows and (784+1) columns. Extra 1 is for levels of images (i.e. 0 to 9).
 
 Starting 35000 images data is used for train the classifer and then that classifer is used to predict the labels of rest 7000 images and then those predicted lebels are compared to the actual data to calculate accuracy score.
 
