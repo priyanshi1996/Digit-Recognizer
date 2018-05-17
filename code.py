@@ -23,12 +23,12 @@ test_X=train.iloc[35000:,1:]
 
 #Random Forest Classifier
 
-clf_random = RandomForestClassifier(n_estimators = 10,max_depth = None,random_state = 0)
+clf_random = RandomForestClassifier(n_estimators = 100,max_depth = 20,random_state = 0)
 clf_random.fit(train_X,train_Y)
 predicted_test_random=clf_random.predict(test_X)
 print("Random Forest Classifier")
 print(accuracy_score(test_Y,predicted_test_random))
-#accuracy of random forest Classifier=0.94285714
+#accuracy of random forest Classifier=0.96528
 
 #Decision tree Classifier
 
